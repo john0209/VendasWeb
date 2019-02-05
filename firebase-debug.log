@@ -1,0 +1,25 @@
+[debug] [2019-02-05T00:54:56.206Z] ----------------------------------------------------------------------
+[debug] [2019-02-05T00:54:56.209Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Raphael\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-02-05T00:54:56.209Z] CLI Version:   6.3.1
+[debug] [2019-02-05T00:54:56.209Z] Platform:      win32
+[debug] [2019-02-05T00:54:56.209Z] Node Version:  v10.15.1
+[debug] [2019-02-05T00:54:56.211Z] Time:          Mon Feb 04 2019 22:54:56 GMT-0200 (GMT-02:00)
+[debug] [2019-02-05T00:54:56.211Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-05T00:54:56.223Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-05T00:54:56.223Z] > authorizing via signed-in user
+[debug] [2019-02-05T00:54:56.223Z] [iam] checking project raphael-vendasapp for permissions ["firebase.projects.get"]
+[debug] [2019-02-05T00:54:56.225Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/raphael-vendasapp:testIamPermissions  
+
+[debug] [2019-02-05T00:54:57.330Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-05T00:54:57.332Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/raphael-vendasapp  
+ 
+[debug] [2019-02-05T00:54:58.491Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Raphael\Desktop\VendasApp'...
+[info] 
+[debug] [2019-02-05T00:54:58.494Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/344882283762/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-05T00:54:59.143Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
